@@ -1,0 +1,131 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header {
+    background-image: linear-gradient(#04519B, #044687, 60%, #033769);
+    color: #FFF;
+    min-height: 100px;
+    padding-top: 25px;
+}
+
+header form {
+    float: right;
+}
+
+header .logo {
+    float left;
+}
+
+.panel-heading {
+    background-image: linear-gradient(#04519B, #044687, 60%, #033769);
+    color: #FFF !important;
+}
+
+.bubble {
+    position: relative;
+    width: 580;
+    min-height: 60px;
+    padding: 15px;
+    background: #FFF;
+    border-radius: 10px;
+    border: 1px solid gray
+}
+
+.likes {
+    margin-top: -15px;
+}
+
+.fa-thumbs-up {
+  color: #033769;
+}
+
+.comment-form .form-group {
+    width: 80%;
+}
+
+.comment-form input[type='text'] {
+    width: 100%;
+}
+
+.comment-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.comment {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 15px;
+    overflow: auto;
+    width: 100%;
+}
+
+.friends li {
+    list-style: none;
+    padding: 0 10px;
+    display: inline;
+    float: left;
+}
+
+.friends img {
+    width: 55px;
+}
+
+.groups img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    overflow: auto;
+}
+
+.members .member-row {
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.profile ul {
+    margin-top: 20px;
+}
+
+.profile li {
+    list-style: none;
+    line-height: 1.8em;
+}
+
+.photos {
+    padding: 0;
+    margin: 0;
+}
+
+.photos li {
+    list-style: none;
+    float: left;
+    width: 23%;
+    margin: 5px;
+}
+
+.photos img {
+    width: 100%;
+}
+
+@media (min-width: 991px) {
+    .members p {
+        margin-top: 20px;
+    }
+}
+
